@@ -691,7 +691,7 @@ const body = document.getElementById('body');
 
 var currModal;
 
-function addmodal(modalid){
+let addmodal = (modalid) =>{
 const modalNode = document.getElementById(modalid);
 
 currModal = modalid;
@@ -711,7 +711,7 @@ service.style.cssText="background-color:rgba(0,0,0,0.5); filter: blur(4px);";
 
 };
 
-function closeany(){
+let closeany = () => {
   let openedModalcurr = document.getElementById(currModal);
   
   currModal = undefined;
