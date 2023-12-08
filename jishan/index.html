@@ -719,16 +719,17 @@ let closeany = () => {
     setTimeout(() => {
       openedModalcurr.style.top="100%";
       closebtn1.style.display = 'none';
+      about.style.cssText="background-color:#f3f0f6; filter: blur(0px);";
+      service.style.cssText="background-color: white; filter: blur(0px);";
+      body.style.overflow = "visible";  
+      openedModalcurr.scrollTop = "0";
+      overlay.style.display = "none";
     },5)
 
   setTimeout(() => {
-    about.style.cssText="background-color:#f3f0f6; filter: blur(0px);";
-  service.style.cssText="background-color: white; filter: blur(0px);";
-  body.style.overflow = "visible";  
-    openedModalcurr.scrollTop = "0";
-  overlay.style.display = "none";
+    
   openedModalcurr.style.display = 'none';
-    },235);
+    },505);
   
   
   
