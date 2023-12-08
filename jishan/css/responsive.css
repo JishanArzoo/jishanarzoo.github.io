@@ -188,7 +188,8 @@
 
 @media (max-width: 360px) {
   .closebtn{
-    left: 85%;
+    left: 83.5%;
+    top: 2.5%;
   }
   .bannerimg{
     height: 29%;
