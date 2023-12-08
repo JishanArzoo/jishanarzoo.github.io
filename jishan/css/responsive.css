@@ -184,6 +184,10 @@
   .bannerimg{
     height: 29%;
   }
+   .closebtn{
+    left: 83.5%;
+    top: 2.5%;
+  }
 }
 
 @media (max-width: 360px) {
